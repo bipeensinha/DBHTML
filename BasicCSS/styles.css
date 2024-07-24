@@ -1,0 +1,43 @@
+/* CSS styling for the HTML document */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, section, footer {
+    padding: 20px;
+    margin: 10px 0;
+}
+
+header, footer {
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: #e4e4e4;
+    margin: 20px 0;
+}
+
+img {
+    display: block;
+    margin: 10px auto;
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- Defines the character encoding for the document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Sets the viewport to make the website responsive -->
+    <title>Important HTML Tags</title> <!-- Title of the document, shown in the browser tab -->
+    <style>
+        /* CSS styling for the HTML document */
+        body { font-family: Arial, sans-serif; line-height: 1.6; }
+        header, nav, section, article, aside, footer { padding: 20px; margin: 10px 0; }
+        header, footer { background-color: #f4f4f4; }
+        nav { background-color: #333; color: white; }
+        nav a { color: white; padding: 0 10px; text-decoration: none; }
+        section, article, aside { background-color: #e4e4e4; }
+        table { width: 100%; border-collapse: collapse; }
+        table, th, td { border: 1px solid black; }
+        th, td { padding: 10px; text-align: left; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Important HTML Tags</h1> <!-- Main heading of the document -->
+    </header>
+    <nav>
+        <!-- Navigation links -->
+        <a href="#structure">Structure</a>
+        <a href="#formatting">Formatting</a>
+        <a href="#multimedia">Multimedia</a>
+        <a href="#forms">Forms</a>
+    </nav>
+    <main>
+        <section id="structure">
+            <h2>Structure Tags</h2> <!-- Heading for the section -->
+            <p>The fundamental tags that define the structure of an HTML document:</p>
+            <ul>
+                <!-- List of structural tags -->
+                <li><code>&lt;html&gt;</code> - Root element</li>
+                <li><code>&lt;head&gt;</code> - Container for metadata</li>
+                <li><code>&lt;title&gt;</code> - Title of the document</li>
+                <li><code>&lt;body&gt;</code> - Body of the document</li>
+                <li><code>&lt;header&gt;</code> - Introductory content</li>
+                <li><code>&lt;nav&gt;</code> - Navigation links</li>
+                <li><code>&lt;section&gt;</code> - Section of a document</li>
+                <li><code>&lt;article&gt;</code> - Independent content</li>
+                <li><code>&lt;aside&gt;</code> - Tangentially related content</li>
+                <li><code>&lt;footer&gt;</code> - Footer content</li>
+            </ul>
+        </section>
+        <section id="formatting">
+            <h2>Formatting Tags</h2> <!-- Heading for the section -->
+            <p>Tags used for formatting and structuring text:</p>
+            <ul>
+                <!-- List of formatting tags -->
+                <li><code>&lt;h1&gt; to &lt;h6&gt;</code> - Headings</li>
+                <li><code>&lt;p&gt;</code> - Paragraph</li>
+                <li><code>&lt;br&gt;</code> - Line break</li>
+                <li><code>&lt;hr&gt;</code> - Horizontal rule</li>
+                <li><code>&lt;strong&gt;</code> - Bold text</li>
+                <li><code>&lt;em&gt;</code> - Italic text</li>
+                <li><code>&lt;a&gt;</code> - Anchor (link)</li>
+                <li><code>&lt;ul&gt;</code> - Unordered list</li>
+                <li><code>&lt;ol&gt;</code> - Ordered list</li>
+                <li><code>&lt;li&gt;</code> - List item</li>
+                <li><code>&lt;table&gt;</code> - Table</li>
+                <li><code>&lt;tr&gt;</code> - Table row</li>
+                <li><code>&lt;th&gt;</code> - Table header</li>
+                <li><code>&lt;td&gt;</code> - Table data cell</li>
+            </ul>
+        </section>
+        <section id="multimedia">
+            <h2>Multimedia Tags</h2> <!-- Heading for the section -->
+            <p>Tags for embedding multimedia content:</p>
+            <ul>
+                <!-- List of multimedia tags -->
+                <li><code>&lt;img&gt;</code> - Image</li>
+                <li><code>&lt;audio&gt;</code> - Audio content</li>
+                <li><code>&lt;video&gt;</code> - Video content</li>
+                <li><code>&lt;source&gt;</code> - Media source for <code>&lt;audio&gt;</code> and <code>&lt;video&gt;</code></li>
+                <li><code>&lt;iframe&gt;</code> - Inline frame</li>
+            </ul>
+            <article>
+                <h3>Example of an Embedded Image:</h3> <!-- Heading for the example -->
+                <img src="https://via.placeholder.com/150" alt="Placeholder Image"> <!-- Embedded image -->
+            </article>
+        </section>
+        <section id="forms">
+            <h2>Form Tags</h2> <!-- Heading for the section -->
+            <p>Tags used to create forms and collect user input:</p>
+            <ul>
+                <!-- List of form tags -->
+                <li><code>&lt;form&gt;</code> - Form element</li>
+                <li><code>&lt;input&gt;</code> - Input field</li>
+                <li><code>&lt;label&gt;</code> - Label for input</li>
+                <li><code>&lt;textarea&gt;</code> - Multi-line text input</li>
+                <li><code>&lt;button&gt;</code> - Button</li>
+                <li><code>&lt;select&gt;</code> - Dropdown list</li>
+                <li><code>&lt;option&gt;</code> - Option in a dropdown</li>
+            </ul>
+            <article>
+                <h3>Example Form:</h3> <!-- Heading for the example -->
+                <form>
+                    <!-- Form element -->
+                    <label for="name">Name:</label><br> <!-- Label for the name input -->
+                    <input type="text" id="name" name="name"><br><br> <!-- Text input field for name -->
+                    <label for="message">Message:</label><br> <!-- Label for the message input -->
+                    <textarea id="message" name="message"></textarea><br><br> <!-- Textarea for message -->
+                    <button type="submit">Submit</button> <!-- Submit button -->
+                </form>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Important HTML Tags. All rights reserved.</p> <!-- Footer content -->
+    </footer>
+</body>
+</html>
